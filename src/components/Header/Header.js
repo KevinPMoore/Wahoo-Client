@@ -3,7 +3,7 @@ import './Header.css';
 function Header(props) {
 
     function renderHeader() {
-        if(props.loggedIn !== true) {
+        if(props.hasUser !== true) {
             return(
                 <header>
                     <h1>
