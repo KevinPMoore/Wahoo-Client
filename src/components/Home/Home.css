@@ -1,0 +1,9 @@
+.Home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+    width: 100%;
+    min-height: 440px;
+    background-color: chocolate;
+}
