@@ -1,6 +1,6 @@
 import './Header.css';
 
-function Header(props) {
+export default function Header(props) {
 
     function renderHeader() {
         if(props.hasUser !== true) {
@@ -44,5 +44,3 @@ function Header(props) {
         renderHeader()
     );
 };
-
-export default Header;
