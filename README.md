@@ -10,3 +10,4 @@
 9. set up answers
 10. set up best answer logic
 11. set up user points logic
+12. factor components into routes

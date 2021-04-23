@@ -15,7 +15,7 @@ export default function App() {
   const [ user, setUser ] = useState(null);
 
   return (
-    <div className="App">
+    <div className='App'>
       <Header hasUser={user}/>
       <Nav />
       <main>
